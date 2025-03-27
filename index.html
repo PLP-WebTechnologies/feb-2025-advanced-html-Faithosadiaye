@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2</title>
+</head>
+<body>
+
+    <h1>Roman Numeral List</h1>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <h1>External Image</h1>
+    <img src="pic.jpg" alt="Nature Image" width="500">
+
+    <h1>Contact Table</h1>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Osadiaye Faith</td>
+            <td>Nigeria</td>
+            <td>000 000 00</td>
+            <td>faithosadiaye1@gmail.com</td>
+        </tr>
+            <tr>
+              <td>Osadiaye Faith</td>
+              <td>Nigeria</td>
+              <td>000 000 00</td>
+              <td>faithosadiaye1@gmail.com</td>
+          </tr>
+            
+            <tr>
+              <td>Osadiaye Faith</td>
+              <td>Nigeria</td>
+              <td>000 000 00</td>
+              <td>faithosadiaye1@gmail.com</td>
+          </tr>
+            <tr>
+                <td>Osadiaye Faith</td>
+                <td>Nigeria</td>
+                <td>000 000 00</td>
+                <td>faithosadiaye1@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Registration Form</h1>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>User Registration</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br><br>
+
+            <label for="date">Date of Birth:</label><br>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="usa">Nigeria</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="othergender" name="gender" value="other">
+            <label for="othergender">Other</label><br><br>
+
+            <p>Interests:</p>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        audio audio
+    </audio>
+
+    <h1>Video</h1>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Video video
+    </video>
+
+</body>
+</html>
